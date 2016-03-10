@@ -106,28 +106,4 @@ public class DelayedFollow : MonoBehaviour
             }
         }
     }
-
-    //private void SetSpeechCommands()
-    //{
-    //    string[] keywordList = new string[4];
-    //    keywordList[0] = "Up";
-    //    keywordList[1] = "Down";
-    //    this.keywords = new KeywordRecognizer(keywordList);
-    //    this.keywords.OnPhraseRecognized += this.SpeechCommandRecognized;
-    //    this.keywords.Start();
-    //}
-
-    //private void SpeechCommandRecognized(PhraseRecognizedEventArgs args)
-    //{
-    //    if (args.text == "Up")
-    //    {
-    //        this.frameDelay++;
-    //        ResetFrames();
-    //    }
-    //    else if (args.text == "Down")
-    //    {
-    //        this.frameDelay--;
-    //        ResetFrames();
-    //    }
-    //}
 }
